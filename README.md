@@ -1,37 +1,55 @@
 # Banking-Project
-### There are 4 classes in this project: 
-##### **main class:**
-Inside this class we have the main menu, and inside the main menu we take user input, Initialize the bank object, vaildate the inputs from user, and then call the rquired function. 
----
-##### **Bank class:** 
-Inside the bank class, the customers list is created using a database object, in this class we have all required operations for the program.
-Functions list:
-- add_new_customer.
-- check_customer_exsist, using phone number.
-- check_account_exsist
-- login function.
-- Get_customer_by_id.
-- reactivate_account: when the overdaft is paid.
-- deposit
-- withdraw
-- transfer_between_personal_account
-- transfer_to_another_customer
+
+### Project Description  
+A console-based banking system in Python that simulates real-world operations using a CSV file as a lightweight database. Features include secure login, account creation, deposits, withdrawals, fund transfers, and overdraft protection with automated fees and account status management. Built using object-oriented principles, file and exception handling, and a test-driven development approach, with transaction history tracking and timestamped records.
 
 ---
-##### **Customer class:** 
-An entity class that represents customers in a system. each csutomer has a unigue identifier which is account id, and have another attributes. 
+
+### Project Content
+
+There are 4 classes in this project:
+
+#### Main Class  
+Inside this class, we have the main menu. The program takes user input, initializes the bank object, validates user inputs, and calls the required functions.
 
 ---
-##### **Database class:** 
-This class is to read and write to database, which CSV file. 
-Functions list:
-- read_customers_from_file: this method used to read all customers from file and store it into a list of customers, so we can use it in the program.
-- write_customer_to_file: this method used to append a new customer to the database when a new customer is added.
-- updated_customer: this method update all customers information on the databse when any transaction happen or any changes happen to customers info.
-- store_transaction: this method is used to write all tranactions happend when customers make any operation, when they are logged in.  
+
+#### Bank Class  
+Manages all operations of the program. It creates a list of customers using a database object.
+
+**Functions:**
+- `add_new_customer`
+- `check_customer_exist` (by phone number)
+- `check_account_exist`
+- `login`
+- `get_customer_by_id`
+- `reactivate_account`
+- `deposit`
+- `withdraw`
+- `transfer_between_personal_account`
+- `transfer_to_another_customer`
+
 ---
-##### **TDD class(test-driven development (TDD) approach):** 
-In this class, I tested all functions using unit test. 
+
+#### Customer Class  
+An entity class that represents each customer with a unique account ID and other related attributes.
+
+---
+
+#### Database Class  
+Handles reading and writing to the CSV database.
+
+**Functions:**
+- `read_customers_from_file`
+- `write_customer_to_file`
+- `update_customer`
+- `store_transaction`
+
+---
+
+#### TDD Class (Test-Driven Development)  
+This class includes unit tests for all functions to ensure code reliability.
+
 
 ---
 #### There are two files in this project:
