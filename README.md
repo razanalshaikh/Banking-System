@@ -1,7 +1,7 @@
 # Banking-Project
 
 ### Project Description  
-A console-based banking system in Python that simulates real-world operations using a CSV file as a lightweight database. Features include secure login, account creation, deposits, withdrawals, fund transfers, and overdraft protection with automated fees and account status management. Built using object-oriented principles, file and exception handling, and a test-driven development approach, with transaction history tracking and timestamped records.
+A console-based banking system in Python that simulates real-world operations using a CSV file as database. Features include secure login, account creation, deposits, withdrawals, fund transfers, and overdraft protection with automated fees and account status management. Built using object-oriented principles, file and exception handling, and a test-driven development approach, with transaction history tracking and timestamped records.
 
 ---
 
