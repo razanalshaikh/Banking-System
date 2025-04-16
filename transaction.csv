@@ -1,0 +1,7 @@
+"Thu Mar 13 04:43:19 2025":"transction: Account":10006:Deposited:100.0:into checking account:"account current Balance: ":282.0
+"Thu Mar 13 04:43:34 2025":"transction: Account":10006:withdrawn:100.0:from your checking account:"account current Balance: ":182.0
+"Thu Mar 13 04:44:03 2025":"transction: Account":10000:Transferred:100.0:from checking account to savings:" checking current balance: ":5345.0:" current savings balance: ":200.0
+"Thu Mar 13 04:44:54 2025":"transction: Account":10001:withdrawn:3.0:from your checking account:"account current Balance: ":39997.0
+"Thu Mar 13 04:46:20 2025":"transction: Account":10001:"Transferred from your checking account: ":50.0:"to Account: ":10006:" and your curent account balance: ":39947.0
+"Thu Mar 13 04:54:24 2025":"transction: Account":10006:Deposited:20.0:into checking account:"account current Balance: ":252.0
+"Thu Mar 13 04:54:49 2025":"transction: Account":10006:withdrawn:20.0:from your checking account:"account current Balance: ":232.0
